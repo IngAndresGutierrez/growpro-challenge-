@@ -1,5 +1,6 @@
 /* import external modules */
 import React from 'react'
+import Footer from '../../../../commons/components/Footer'
 
 /* import internal modules */
 import BikesList from '../organisms/BikesList'
@@ -15,7 +16,12 @@ import BikesList from '../organisms/BikesList'
  **/
 
 const LandingPage = () => {
-  return <BikesList />
+  return (
+    <>
+      <BikesList />
+      <Footer />
+    </>
+  )
 }
 
 export default LandingPage
