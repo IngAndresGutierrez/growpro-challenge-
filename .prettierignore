@@ -1,0 +1,12 @@
+coverage
+docs
+cypress
+.eslintrc.js
+.prettierrc.json
+.vscode
+cypress.config.js
+jsdoc.conf.json
+package.json
+public
+README.md
+setupTests.js
